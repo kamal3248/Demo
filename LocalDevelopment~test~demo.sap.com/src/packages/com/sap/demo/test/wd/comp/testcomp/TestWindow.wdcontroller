@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- MetaDataAPI generated on: Tuesday, October 2, 2018 6:19:21 PM CEST -->
+<Controller xmlns="http://xml.sap.com/2002/10/metamodel/webdynpro" xmlns:IDX="urn:sap.com:WebDynpro.Controller:3.0" mmRelease="7.00" mmVersion="3.0" mmTimestamp="1538497161003" version="10" name="TestWindow" type="window" package="com.sap.demo.test.wd.comp.testcomp" masterLanguage="en">
+	<Controller.Parent>
+		<Core.Reference package="com.sap.demo.test.wd.comp.testcomp" name="TestComp" type="Component"/>
+	</Controller.Parent>
+	<Controller.Context>
+		<ContextNode cardinality="_1_1" name="Context" selection="_1_1">
+		</ContextNode>
+	</Controller.Context>
+	<Controller.EventHandlers>
+		<ControllerEventHandler name="onPlugDefault">
+		</ControllerEventHandler>
+	</Controller.EventHandlers>
+	<Controller.View>
+		<Core.Reference package="com.sap.demo.test.wd.comp.testcomp" name="TestWindow" type="Window"/>
+	</Controller.View>
+</Controller>

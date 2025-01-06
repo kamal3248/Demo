@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- MetaDataAPI generated on: Tuesday, October 2, 2018 6:19:21 PM CEST -->
+<View xmlns="http://xml.sap.com/2002/10/metamodel/webdynpro" xmlns:IDX="urn:sap.com:WebDynpro.View:3.0" mmRelease="7.00" mmVersion="3.0" mmTimestamp="1538497161003" version="10" name="TestCompView" package="com.sap.demo.test.wd.comp.testcomp" masterLanguage="en">
+	<Core.Annotations>
+			</Core.Annotations>
+	<AbstractView.ViewController>
+		<Core.Reference package="com.sap.demo.test.wd.comp.testcomp" name="TestCompView" type="Controller"/>
+	</AbstractView.ViewController>
+	<View.Parent>
+		<Core.Reference package="com.sap.demo.test.wd.comp.testcomp" name="TestComp" type="Component"/>
+	</View.Parent>
+	<View.RootUIElementContainer>
+		<TransparentContainer name="RootElement">
+			<ViewElement.Definition>
+				<Core.Reference package="com.sap.ide.webdynpro.uielementdefinitions" name="TransparentContainer" type="UIElementDefinition"/>
+			</ViewElement.Definition>
+			<UIElementContainer.Children>
+				<TransparentContainer name="TransparentContainer">
+					<ViewElement.Definition>
+						<Core.Reference package="com.sap.ide.webdynpro.uielementdefinitions" name="TransparentContainer" type="UIElementDefinition"/>
+					</ViewElement.Definition>
+					<UIElement.LayoutData>
+						<FlowData name="TransparentContainer_LayoutData">
+							<ViewElement.Definition>
+								<Core.Reference package="com.sap.ide.webdynpro.uielementdefinitions" name="FlowLayout" type="LayoutDefinition" path="LayoutDataDefinition:FlowData"/>
+							</ViewElement.Definition>
+						</FlowData>
+					</UIElement.LayoutData>
+					<UIElementContainer.Children>
+						<Caption name="Caption" text_isDependent="false">
+							<ViewElement.Definition>
+								<Core.Reference package="com.sap.ide.webdynpro.uielementdefinitions" name="Caption" type="UIElementDefinition"/>
+							</ViewElement.Definition>
+							<UIElement.LayoutData>
+								<FlowData name="Caption_layoutdata">
+									<ViewElement.Definition>
+										<Core.Reference package="com.sap.ide.webdynpro.uielementdefinitions" name="FlowLayout" type="LayoutDefinition" path="LayoutDataDefinition:FlowData"/>
+									</ViewElement.Definition>
+								</FlowData>
+							</UIElement.LayoutData>
+						</Caption>
+						<TextView name="TextView">
+							<ViewElement.Definition>
+								<Core.Reference package="com.sap.ide.webdynpro.uielementdefinitions" name="TextView" type="UIElementDefinition"/>
+							</ViewElement.Definition>
+							<UIElement.LayoutData>
+								<FlowData name="TextView_layoutdata">
+									<ViewElement.Definition>
+										<Core.Reference package="com.sap.ide.webdynpro.uielementdefinitions" name="FlowLayout" type="LayoutDefinition" path="LayoutDataDefinition:FlowData"/>
+									</ViewElement.Definition>
+								</FlowData>
+							</UIElement.LayoutData>
+						</TextView>
+						<UIElement name="MessageArea">
+							<ViewElement.Definition>
+								<Core.Reference package="com.sap.ide.webdynpro.uielementlibraries.pattern" name="MessageArea" type="UIElementDefinition"/>
+							</ViewElement.Definition>
+							<UIElement.LayoutData>
+								<FlowData name="MessageArea_LayoutData">
+									<ViewElement.Definition>
+										<Core.Reference package="com.sap.ide.webdynpro.uielementdefinitions" name="FlowLayout" type="LayoutDefinition" path="LayoutDataDefinition:FlowData"/>
+									</ViewElement.Definition>
+								</FlowData>
+							</UIElement.LayoutData>
+						</UIElement>
+					</UIElementContainer.Children>
+					<UIElementContainer.Layout>
+						<FlowLayout name="TransparentContainer_Layout">
+							<ViewElement.Definition>
+								<Core.Reference package="com.sap.ide.webdynpro.uielementdefinitions" name="FlowLayout" type="LayoutDefinition"/>
+							</ViewElement.Definition>
+						</FlowLayout>
+					</UIElementContainer.Layout>
+				</TransparentContainer>
+			</UIElementContainer.Children>
+			<UIElementContainer.Layout>
+				<FlowLayout name="RootElement_Layout">
+					<ViewElement.Definition>
+						<Core.Reference package="com.sap.ide.webdynpro.uielementdefinitions" name="FlowLayout" type="LayoutDefinition"/>
+					</ViewElement.Definition>
+				</FlowLayout>
+			</UIElementContainer.Layout>
+		</TransparentContainer>
+	</View.RootUIElementContainer>
+</View>
