@@ -110,6 +110,7 @@ public class New1Comp implements java.io.Serializable
   public void wdDoInit()
   {
     //@@begin wdDoInit()
+	  String test = "test";
     //@@end
   }
 
