@@ -1,0 +1,91 @@
+@CHARSET "UTF-8";
+
+input{
+    color: black;
+}
+
+h1{
+    text-align: center;
+	color: #0575a0;
+}
+body{
+	background: whitesmoke;
+}
+table{
+	width: 90%;
+}
+	
+
+#div_con_login{
+	display: block;
+	margin-left: 30%;
+	margin-right: 30%;
+	text-align: center;
+}
+
+#div_con_details{
+	display: block;
+	margin-left: 30%;
+	text-align: center;
+	margin-right: 30%;
+}
+
+
+#div_payResp{
+	display: block;
+	margin-left: 30%;
+	text-align: center;
+	margin-right: 30%;
+}
+	
+
+#submit_validate{
+
+}
+
+.login_body{
+	background:background: azure;
+	box-shadow: 6px 10px 24px;
+	display: inline-table;
+	padding-left: 4px;
+	padding-right: 4px;
+	border:1px solid black;
+	width : 100%
+}
+
+
+.no-close .ui-dialog-titlebar-close {
+  display: none;
+  text-align: center;
+  z-index: -1;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 200px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    text-align : center;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 10%;
+    height : 26%;
+    z-index: 1;
+}
+
+
