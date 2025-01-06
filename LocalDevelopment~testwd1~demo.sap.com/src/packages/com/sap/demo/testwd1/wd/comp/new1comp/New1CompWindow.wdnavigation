@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- MetaDataAPI generated on: Tuesday, October 2, 2018 6:19:21 PM CEST -->
-<NavigationLinks xmlns="http://xml.sap.com/2002/10/metamodel/webdynpro" xmlns:IDX="urn:sap.com:WebDynpro.NavigationLinks:3.0" mmRelease="7.00" mmVersion="3.0" mmTimestamp="1538497161003" version="10" name="New1CompWindow" package="com.sap.demo.testwd1.wd.comp.new1comp" masterLanguage="en">
-	<NavigationLinks.Parent>
-		<Core.Reference package="com.sap.demo.testwd1.wd.comp.new1comp" name="New1CompWindow" type="Window"/>
-	</NavigationLinks.Parent>
-</NavigationLinks>
