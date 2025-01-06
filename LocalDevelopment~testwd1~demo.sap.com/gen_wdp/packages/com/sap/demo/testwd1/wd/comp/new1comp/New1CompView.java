@@ -111,6 +111,7 @@ public class New1CompView implements java.io.Serializable
   {
     //@@begin wdDoInit()
 	String value = "Test1";
+	
     //@@end
   }
 
