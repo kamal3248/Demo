@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- MetaDataAPI generated on: Tuesday, October 2, 2018 6:19:21 PM CEST -->
+<InterfaceView xmlns="http://xml.sap.com/2002/10/metamodel/webdynpro" xmlns:IDX="urn:sap.com:WebDynpro.InterfaceView:3.0" mmRelease="7.00" mmVersion="3.0" mmTimestamp="1538497161003" version="10" name="New1CompInterfaceView" package="com.sap.demo.testwd1.wd.comp.new1comp" masterLanguage="en">
+	<AbstractView.InboundPlugs>
+		<InboundPlug name="Default" type="startup">
+		</InboundPlug>
+	</AbstractView.InboundPlugs>
+	<AbstractView.ViewController>
+		<Core.Reference package="com.sap.demo.testwd1.wd.comp.new1comp" name="New1CompInterfaceView" type="Controller"/>
+	</AbstractView.ViewController>
+	<InterfaceView.Parent>
+		<Core.Reference package="com.sap.demo.testwd1.wd.comp.new1comp" name="New1CompInterface" type="LocalComponentInterface"/>
+	</InterfaceView.Parent>
+</InterfaceView>
